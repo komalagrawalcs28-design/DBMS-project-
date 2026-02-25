@@ -1,0 +1,10 @@
+CREATE DATABASE PAYROLL;
+USE PAYROLL;
+//create department table
+CREATE TABLE Department (
+    dept_id INT PRIMARY KEY,
+    dept_name VARCHAR(50),
+    location VARCHAR(50),
+    manager_name VARCHAR(50),
+    contact_no VARCHAR(15)
+);
