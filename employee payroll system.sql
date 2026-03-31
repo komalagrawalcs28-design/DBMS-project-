@@ -1,5 +1,5 @@
-CREATE DATABASE EMPLOYEE_PAYROLL;
-USE EMPLOYEE_PAYROLL_DB;
+CREATE DATABASE employee_payroll_db;
+USE employee_payroll_db;
 //create department table
 CREATE TABLE Department (
     dept_id INT PRIMARY KEY,
